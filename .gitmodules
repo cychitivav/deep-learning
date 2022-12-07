@@ -1,0 +1,3 @@
+[submodule "resources/dl-pytorch"]
+	path = resources/dl-pytorch
+	url = https://github.com/JuanPabloMF/dl-pytorch

@@ -7,26 +7,26 @@ EMOJIS
 * https://gist.github.com/rxaviers/7360908
   
 Find and replace the following text with the name of the project:
-	repo_name
+	deep_learning
 -->
 
 <div align="center" id="readme-top">
 
-<img src="https://user-images.githubusercontent.com/30636259/167962176-b8172b07-c769-4a7b-1690-db518c59fffa.png" alt="Logo" width="80"/>
+<img src="https://user-images.githubusercontent.com/30636259/206070510-6a660c11-586e-4ada-a38b-68c7565761c5.png" alt="Logo" width="80"/>
 
 <!-- omit in toc -->
-# README title
-An awesome README description!
+# Deep learning with Pytorch
+Code used in Platzi's deep learning course with PyTorch
 
-[**Explore the docs »**](https://github.com/cychitivav/README-template/wiki)
+[**Explore the docs »**](https://github.com/cychitivav/deep_learning/wiki)
 
-[View Demo](https://github.com/cychitivav/README-template) · [Report Bug](https://github.com/cychitivav/README-template/issues) · [Request Feature](https://github.com/cychitivav/README-template/issues)
+[View Demo](https://github.com/cychitivav/deep_learning) · [Report Bug](https://github.com/cychitivav/deep_learning/issues) · [Request Feature](https://github.com/cychitivav/deep_learning/issues)
 
-[![Contributors](https://img.shields.io/github/contributors/cychitivav/repo_name.svg?style=for-the-badge)](https://github.com/cychitivav/repo_name/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/cychitivav/repo_name.svg?style=for-the-badge)](https://github.com/cychitivav/repo_name/network/members)
-[![Stargazers](https://img.shields.io/github/stars/cychitivav/repo_name.svg?style=for-the-badge)](https://github.com/cychitivav/repo_name/stargazers)
-[![Issues](https://img.shields.io/github/issues/cychitivav/repo_name.svg?style=for-the-badge)](https://github.com/cychitivav/repo_name/issues)
-[![MIT License](https://img.shields.io/github/license/cychitivav/repo_name.svg?style=for-the-badge)](https://github.com/cychitivav/repo_name/blob/main/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/cychitivav/deep_learning.svg?style=for-the-badge)](https://github.com/cychitivav/deep_learning/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/cychitivav/deep_learning.svg?style=for-the-badge)](https://github.com/cychitivav/deep_learning/network/members)
+[![Stargazers](https://img.shields.io/github/stars/cychitivav/deep_learning.svg?style=for-the-badge)](https://github.com/cychitivav/deep_learning/stargazers)
+[![Issues](https://img.shields.io/github/issues/cychitivav/deep_learning.svg?style=for-the-badge)](https://github.com/cychitivav/deep_learning/issues)
+[![MIT License](https://img.shields.io/github/license/cychitivav/deep_learning.svg?style=for-the-badge)](https://github.com/cychitivav/deep_learning/blob/main/LICENSE)
 
 
 </div>
@@ -54,7 +54,7 @@ An awesome README description!
 
 [![Product Name Screen Shot](https://user-images.githubusercontent.com/30635659/169600958-763d1628-b7bb-475c-a8bc-56120d1d3ff9.svg)](https://user-images.githubusercontent.com/30635659/169600958-763d1628-b7bb-475c-a8bc-56120d1d3ff9.svg)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor `repo_name`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor `deep_learning`
 
 <div align="right">
 
@@ -84,25 +84,29 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* numpy
+* pytorch
 	```sh
-	pip install numpy
+	pip install pytorch
 	```
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repo and submodules
 	```sh
-	git clone https://github.com/cychitivav/repo_name.git
+	git clone --recurse-submodules https://github.com/cychitivav/deep_learning.git
 	```
-2. Next steps
+2. Unzip the dataset
+	```sh
+	tar -xf ./resources/dl-pytorch/datasets/64x64_SIGNS.zip
+	mv 64x64_SIGNS data
+	```
 
 <!-- USAGE EXAMPLES -->
 ## :balloon:Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-> __Note__: For more examples, please refer to the* [*Documentation*](https://github.com/cychitivav/repo_name/wiki)
+> __Note__: For more examples, please refer to the* [*Documentation*](https://github.com/cychitivav/deep_learning/wiki)
 
 
 
@@ -114,7 +118,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 - [ ] Feature 2
     - [ ] Nested Feature
 
-> __Note__: See the [open issues](https://github.com/cychitivav/repo_name/issues) for a full list of proposed features (and known issues).
+> __Note__: See the [open issues](https://github.com/cychitivav/deep_learning/issues) for a full list of proposed features (and known issues).
 
 <div align="right">
 
